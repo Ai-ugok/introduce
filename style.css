@@ -1,0 +1,58 @@
+@media screen and (max-width: 500px) {
+  @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=DotGothic16&display=swap');
+
+  * {
+    padding: auto;
+    margin: auto;
+  }
+
+  body {
+    width: 100%;
+    font-family: "BIZ UDPGothic", sans-serif;
+  }
+
+  header {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: ivory;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  div {
+    text-align: center;
+    margin: 30px 10%;
+  }
+
+  /* div:nth-child(2) {
+    border: 3px solid ivory;
+  } */
+
+  .style {
+    border: 3px solid khaki;
+    padding: 10px;
+  }
+
+  .explain {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .down {
+    width: 20%;
+    height: auto;
+    /* margin: 上下 左右 */
+    margin: 20px 40%;
+  }
+
+  p {
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+}
