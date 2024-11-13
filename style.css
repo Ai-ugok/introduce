@@ -1,3 +1,4 @@
+/* レスポンシブ対応（スマホ） */
 @media screen and (max-width: 500px) {
   @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=DotGothic16&display=swap');
 
@@ -55,4 +56,75 @@
     margin-right: 5%;
     margin-top: 10px;
   }
+}
+
+/* PC対応 */
+@media screen and (min-width: 501px) {
+  @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=DotGothic16&display=swap');
+
+  * {
+    padding: auto;
+    margin: auto;
+  }
+
+  body {
+    width: 100%;
+    font-family: "BIZ UDPGothic", sans-serif;
+  }
+
+  header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-color: ivory;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .h {
+    text-align: center;
+    margin: 30px 10%;
+  }
+
+  .img-p {
+    display: flex;
+  }
+
+  /* div:nth-child(2) {
+    border: 3px solid ivory;
+  } */
+
+  .style {
+    width: 50%;
+    border: 3px solid khaki;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+  }
+
+  .explain {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .down {
+    width: 10%;
+    height: auto;
+    /* margin: 上下 左右 */
+    margin: 20px 45%;
+  }
+
+  p {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    line-height: 1.5;
+    margin-right: 10%;
+    font-size: large;
+  }
+
 }
